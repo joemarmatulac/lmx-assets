@@ -1,0 +1,81 @@
+:root{
+    --darkYellow: #F7B944;
+    --lightYellow: #FFFC00;
+    --darkBlue: #2A3C8D;
+    --blue: #235D9B;
+    --lightBlue: #00B0F0;
+    --lightPink:#FEA6FF;
+    --glowPink: #7B65B8;
+}
+
+@font-face {
+    font-family: fs-elliot;
+    src: url(/templates/assets/fonts/fs-elliot-pro-regular.otf) format('opentype');
+}
+
+/* @font-face {font-family: "FS Elliot Pro"; src: url("//db.onlinewebfonts.com/t/8de7c45e410de3f3a0f5dbfec43f958d.eot"); src: url("//db.onlinewebfonts.com/t/8de7c45e410de3f3a0f5dbfec43f958d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8de7c45e410de3f3a0f5dbfec43f958d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8de7c45e410de3f3a0f5dbfec43f958d.woff") format("woff"), url("//db.onlinewebfonts.com/t/8de7c45e410de3f3a0f5dbfec43f958d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8de7c45e410de3f3a0f5dbfec43f958d.svg#FS Elliot Pro") format("svg"); } */
+
+body {
+    background-color: var(--darkBlue);
+    color: white;
+    font-family: fs-elliot;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header {
+    display: flex;
+    background-color: var(--darkYellow);
+    border: 0.6vw solid var(--lightYellow);
+    border-radius: 2vw;
+}
+
+header>img {
+    width: 34vw;
+    margin: 0 auto;
+}
+
+.nameField {
+    margin: 4% 9% 2% 9%;
+}
+
+.glow {
+    color: var(--lightPink);
+    text-shadow: var(--lightPink) 1px 0 50px, white 0 0 10px;
+}
+
+.highlights{
+    color: var(--darkYellow);
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.apply-btn{
+    letter-spacing: 5px;
+    font-weight: 900;
+    border: 5px solid var(--lightPink);
+    width: 34vw;
+    text-align: center;
+    padding: 5px;
+    margin: 4vh auto !important;
+    cursor:pointer;
+}
+
+.apply-btn:hover{
+    box-shadow: var(--lightPink) 1px 0 50px, white 0 0 1px;
+    
+}
+
+.inline-center{
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
